@@ -7,7 +7,34 @@
 </head>
 <body>
         <form action="http://abcxyz.com" method="get" >
-           <label for="username">username</label>  
+       
+            <!-- checkbox list for subjects  urdu , english  , math -->
+            <input type="checkbox" checked name="subjects[]" value="urdu" id="urdu">      
+            <label for="urdu">Urdu</label>
+            <input type="checkbox" checked name="subjects[]" value="english" id="english">
+            <label for="english">English</label>
+            <input type="checkbox" name="subjects[]" value="math" id="math">
+            <label for="math">Math</label>
+            <br>
+
+            <!-- Dropdown for hobbies  ,  cricket , swimming , music -->
+            <label for="hobbies">Hobbies</label>
+            <select name="hobbies" id="hobbies">
+                <option value="none"     >select hobby</option>
+                <option value="cricket">Cricket</option>
+                <option value="swimming" selected>Swimming</option>
+                <option value="music">Music</option>
+            </select>
+
+            <input type="radio" checked name="is_male" value="true" id="male"> 
+            <label for="male">Male</label>
+            <input type="radio" name="is_male" value="false" id="female">
+            <label for="female">Female</label>
+
+
+
+       
+        <!-- <label for="username">username</label>  
 
            <input  id="username" type="text"
              placeholder="enter username"
@@ -18,13 +45,13 @@
               <label for="password">password</label>
                 <input id="password" type="password" value="abc""
                 name="password" required="required" placeholder="enter password">
-<br>
+            <br>
                 <input type="radio" name="is_male" value="true" id="male"> 
                 <label for="male">Male</label>
                 <input type="radio" name="is_male" value="false" id="female">
                 <label for="female">Female</label>
 
-                
+                 -->
              <input type="submit" value="Press" >
         </form>
 </body>
