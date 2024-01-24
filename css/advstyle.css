@@ -1,0 +1,29 @@
+.abc  {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px 10px black;
+    opacity: 0.4;
+    transition: all 2s;
+}
+
+    h1 {
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        color: #1da1f2; /* Twitter blue color */
+        letter-spacing: 1px;
+        margin-bottom: 10px; /* Adjust as needed */
+      }
+      
